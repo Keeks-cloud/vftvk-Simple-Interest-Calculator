@@ -1,3 +1,4 @@
+<script type="application/javascript">
 function compute(){
   var principal = document.getElementById("principal").value;
   var rate = document.getElementById("rate").value;
@@ -9,6 +10,7 @@ function compute(){
           principal.focus();
           return ("test");
       }
+</script>
 //function updateRate()
 //{
   //  var rateval = document.getElementById("rate").value;
