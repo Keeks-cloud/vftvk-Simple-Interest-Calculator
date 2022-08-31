@@ -1,4 +1,4 @@
-<script type="application/javascript">
+
 function compute(){
   var principal = document.getElementById("principal").value;
   var rate = document.getElementById("rate").value;
@@ -6,13 +6,11 @@ function compute(){
   var interest = principal * years * rate /100;
   var year = new Date().getFullYear()+parseInt(years);
       if (principal==5){
-        print ("hello")
+       return ("hello")
       }
 //      alert("Enter a positive number");
 //          principal.focus();
 //         return ("test");
- 
-</script>
 //function updateRate()
 //{
   //  var rateval = document.getElementById("rate").value;
